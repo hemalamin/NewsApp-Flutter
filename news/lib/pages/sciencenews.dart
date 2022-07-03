@@ -96,13 +96,15 @@ class _ScienceNewsPageState extends State<ScienceNewsPage> {
                     alignment: MainAxisAlignment.start,
                     children: [
                       RaisedButton(
+                          padding: const EdgeInsets.all(15.0),
                           color: Colors.blue,
                           onPressed: () {},
-                          child: const Text("Button")),
+                          child: const Text("Read more")),
                       RaisedButton(
+                          padding: const EdgeInsets.all(15.0),
                           color: Colors.blue,
                           onPressed: () {},
-                          child: const Text("Button")),
+                          child: const Text("View Image")),
                     ],
                   )
                 ],
