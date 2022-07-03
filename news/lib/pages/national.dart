@@ -98,11 +98,11 @@ class _NationalNewsState extends State<NationalNewsPage> {
                       RaisedButton(
                           color: Colors.blue,
                           onPressed: () {},
-                          child: const Text("Button")),
+                          child: const Text("Read more")),
                       RaisedButton(
                           color: Colors.blue,
                           onPressed: () {},
-                          child: const Text("Button")),
+                          child: const Text("View Image")),
                     ],
                   )
                 ],

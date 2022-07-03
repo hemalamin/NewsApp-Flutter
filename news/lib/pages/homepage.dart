@@ -14,9 +14,9 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primaryColor: Colors.orange,
-      ),
+      // theme: ThemeData(
+      //   primaryColor: Colors.orange,
+      // ),
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Daily News'),
@@ -27,6 +27,10 @@ class _HomePageState extends State<HomePage> {
               title: const Text("National"),
               // ignore: deprecated_member_use
               trailing: RaisedButton(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10.0)),
+                color: Colors.blue,
+                elevation: 5.0,
                 child: const Text("READ"),
                 onPressed: () {
                   Navigator.pushReplacementNamed(context, "/national");
@@ -40,7 +44,11 @@ class _HomePageState extends State<HomePage> {
               title: const Text("Business"),
               // leading: Image.asset('sport.png'),
               // ignore: deprecated_member_use
-              trailing: FlatButton(
+              trailing: RaisedButton(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10.0)),
+                color: Colors.blue,
+                elevation: 5.0,
                 child: const Text("READ"),
                 onPressed: () {
                   Navigator.pushReplacementNamed(context, "/business");
@@ -53,7 +61,11 @@ class _HomePageState extends State<HomePage> {
             ListTile(
               title: const Text("Sports"),
               // ignore: deprecated_member_use
-              trailing: FlatButton(
+              trailing: RaisedButton(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10.0)),
+                color: Colors.blue,
+                elevation: 5.0,
                 child: const Text("READ"),
                 onPressed: () {
                   Navigator.pushReplacementNamed(context, "/sports");
@@ -66,7 +78,11 @@ class _HomePageState extends State<HomePage> {
             ListTile(
               title: const Text("World"),
               // ignore: deprecated_member_use
-              trailing: FlatButton(
+              trailing: RaisedButton(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10.0)),
+                color: Colors.blue,
+                elevation: 5.0,
                 child: const Text("READ"),
                 onPressed: () {
                   Navigator.pushReplacementNamed(context, "/world");
@@ -79,7 +95,11 @@ class _HomePageState extends State<HomePage> {
             ListTile(
               title: const Text("Politics"),
               // ignore: deprecated_member_use
-              trailing: FlatButton(
+              trailing: RaisedButton(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10.0)),
+                color: Colors.blue,
+                elevation: 5.0,
                 child: const Text("READ"),
                 onPressed: () {
                   Navigator.pushReplacementNamed(context, "/politics");
@@ -92,7 +112,11 @@ class _HomePageState extends State<HomePage> {
             ListTile(
               title: const Text("Technology"),
               // ignore: deprecated_member_use
-              trailing: FlatButton(
+              trailing: RaisedButton(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10.0)),
+                color: Colors.blue,
+                elevation: 5.0,
                 child: const Text("READ"),
                 onPressed: () {
                   Navigator.pushReplacementNamed(context, "/technology");
@@ -105,7 +129,11 @@ class _HomePageState extends State<HomePage> {
             ListTile(
               title: const Text("Startup"),
               // ignore: deprecated_member_use
-              trailing: FlatButton(
+              trailing: RaisedButton(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10.0)),
+                color: Colors.blue,
+                elevation: 5.0,
                 child: const Text("READ"),
                 onPressed: () {
                   Navigator.pushReplacementNamed(context, "/startup");
@@ -118,7 +146,11 @@ class _HomePageState extends State<HomePage> {
             ListTile(
               title: const Text("Entertainment"),
               // ignore: deprecated_member_use
-              trailing: FlatButton(
+              trailing: RaisedButton(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10.0)),
+                color: Colors.blue,
+                elevation: 5.0,
                 child: const Text("READ"),
                 onPressed: () {
                   Navigator.pushReplacementNamed(context, "/entertainment");
@@ -131,7 +163,11 @@ class _HomePageState extends State<HomePage> {
             ListTile(
               title: const Text("Miscellaneous"),
               // ignore: deprecated_member_use
-              trailing: FlatButton(
+              trailing: RaisedButton(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10.0)),
+                color: Colors.blue,
+                elevation: 5.0,
                 child: const Text("READ"),
                 onPressed: () {
                   Navigator.pushReplacementNamed(context, "/miscellaneous");
@@ -144,7 +180,11 @@ class _HomePageState extends State<HomePage> {
             ListTile(
               title: const Text("Unconventional"),
               // ignore: deprecated_member_use
-              trailing: FlatButton(
+              trailing: RaisedButton(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10.0)),
+                color: Colors.blue,
+                elevation: 5.0,
                 child: const Text("READ"),
                 onPressed: () {
                   Navigator.pushReplacementNamed(context, "/unconventional");
@@ -157,7 +197,11 @@ class _HomePageState extends State<HomePage> {
             ListTile(
               title: const Text("Science"),
               // ignore: deprecated_member_use
-              trailing: FlatButton(
+              trailing: RaisedButton(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10.0)),
+                color: Colors.blue,
+                elevation: 5.0,
                 child: const Text("READ"),
                 onPressed: () {
                   Navigator.pushReplacementNamed(context, "/science");
@@ -170,7 +214,11 @@ class _HomePageState extends State<HomePage> {
             ListTile(
               title: const Text("Auto Mobile"),
               // ignore: deprecated_member_use
-              trailing: FlatButton(
+              trailing: RaisedButton(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10.0)),
+                color: Colors.blue,
+                elevation: 5.0,
                 child: const Text("READ"),
                 onPressed: () {
                   Navigator.pushReplacementNamed(context, "/automobile");
