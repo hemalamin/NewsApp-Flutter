@@ -12,14 +12,12 @@ import 'package:news/pages/startup.dart';
 import 'package:news/pages/technologynews.dart';
 import 'package:news/pages/unconventional.dart';
 import 'package:news/pages/worldnews.dart';
+import 'package:news/utils/routes.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+void main() => runApp(const MyApp());
 
 class MyApp extends StatefulWidget {
   const MyApp({Key? key}) : super(key: key);
-
   @override
   State<MyApp> createState() => _MyAppState();
 }
@@ -32,18 +30,18 @@ class _MyAppState extends State<MyApp> {
       title: "Daily News",
       home: const HomePage(),
       routes: {
-        "/national": (context) => const NationalNewsPage(),
-        "/business": (context) => const BusinessNewsPage(),
-        "/sports": (context) => const SportNewsPage(),
-        "/world": (context) => const WorldNewsPage(),
-        "/politics": (context) => const PoliticsNewsPage(),
-        "/technology": (context) => const TechnologyNewsPage(),
-        "/startup": (context) => const StartupNewsPage(),
-        "/entertainment": (context) => const EntertainmentNewsPage(),
-        "/miscellaneous": (context) => const MiscellaneousNewsPage(),
-        "/unconventional": (context) => const UnconventionalNewsPage(),
-        "/science": (context) => const ScienceNewsPage(),
-        "/automobile": (context) => const AutomobileNewsPage(),
+        MyRoutes.national: (context) => const NationalNewsPage(),
+        MyRoutes.business: (context) => const BusinessNewsPage(),
+        MyRoutes.sport: (context) => const SportNewsPage(),
+        MyRoutes.world: (context) => const WorldNewsPage(),
+        MyRoutes.politics: (context) => const PoliticsNewsPage(),
+        MyRoutes.technology: (context) => const TechnologyNewsPage(),
+        MyRoutes.startup: (context) => const StartupNewsPage(),
+        MyRoutes.entertainment: (context) => const EntertainmentNewsPage(),
+        MyRoutes.miscellaneous: (context) => const MiscellaneousNewsPage(),
+        MyRoutes.unconventional: (context) => const UnconventionalNewsPage(),
+        MyRoutes.science: (context) => const ScienceNewsPage(),
+        MyRoutes.automobile: (context) => const AutomobileNewsPage(),
       },
     ));
   }

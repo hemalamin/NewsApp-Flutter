@@ -1,7 +1,6 @@
 // ignore_for_file: non_constant_identifier_names, prefer_typing_uninitialized_variables, deprecated_member_use
 
 import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'homepage.dart';
@@ -41,12 +40,11 @@ class _AutomobileNewsPageState extends State<AutomobileNewsPage> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
+            backgroundColor: Colors.orangeAccent,
             title: const Text("Auto Mobile"),
             leading: RaisedButton(
-              color: Colors.blue,
-              elevation: 10.0,
-              shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(40.0)),
+              color: Colors.orangeAccent,
+              elevation: 0.0,
               onPressed: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => const HomePage()));
